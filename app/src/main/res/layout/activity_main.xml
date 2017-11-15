@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.janiraiski.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/success"/>
+
+    <ImageView
+        android:layout_width="@dimen/logoWidth"
+        android:layout_height="@dimen/logoHeight"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/logoMargin"
+        android:src="@drawable/udacity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        android:textColor="@color/mainTextColor"
+        android:textStyle="bold"
+        android:text="@string/mainText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="16sp"
+        android:textColor="@color/mainTextColor"
+        android:text="@string/contactInformationText"/>
+
+</RelativeLayout>
